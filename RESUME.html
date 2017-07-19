@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/resume.css">
+	<script src="js/jquery-1.9.0.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<!-- <script src="js/swiper.animate1.0.2.min.js"></script>
+	<script src="js/swiper.min.js"></script> -->
+	<script src="js/swiper.animate1.0.2.min.js"></script>
+</head>
+<body>
+    <img id="player" src="images/music.png" onclick="onPlay()">
+    <audio src="video/music.mp3" id="aud"></audio>
+    <img id="tip" src="images/web-swipe-tip.png">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><!-- 第一页 -->
+				<img id="img1" src="images/1.jpg">				   
+			   <p id="header" class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.2s">PERSONAL    RESUME</p>
+			   <h1 id="head" class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.2s">个人简历</h1>
+			   <hr/ class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.2s">
+				<div>
+					<h2 id="seek" class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.4s">求职前端工程师</h2>
+					<h2 id="message" class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.7s">我     心怀梦想      有态度</h2>
+				    <div id="footer" class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.2s">进一步了解</div>
+				</div>
+			    <img src="images/resume.png" id="head-portrait">
+		    </div>
+		    <!-- 第二页 -->
+	<div class="swiper-slide">
+		<img src="images/2.png">
+		<img id="img2" src="images/bg3.png" class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.2s">
+        <p id="basic-message" class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.6s"><b>基本信息</b></p>
+        <p class="ani name" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.8s"><b>姓名: 吴琳琳</b></p>
+        <p class="ani nation" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.0s"><b>民族: 汉</b></p>
+        <p class="ani native-place" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.2s"><b>籍贯：江苏</b></p>
+        <p class="ani age" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.4s"><b>年龄:27</b></p>
+        <p class="ani degree" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.6s"><b>学历：本科</b></p>
+        <p class="ani political" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.8s"><b>政治面貌：团员</b></p>
+        <p class="ani college" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="2s"><b>毕业院校：常州工学院</b></p>
+        <p class="ani hobby" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="2.2s"><b>爱好：运动、旅游、阅读</b></p>
+        <img src="images/head.jpg" id="img-head" class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2.4s" swiper-animate-delay="2.4s">
+			</div>
+			<!-- 第三页 -->
+	<div class="swiper-slide">
+				<img src="images/3.jpg">
+                <div class="skill" ><h1><b>专业技能</b></h1></div>
+		<img src="images/skill1.png" id="app" class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.4s">
+		<span id="word1" class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="0.8s">原生移动APP开发</span>
+		<img src="images/skill2.png" id="wx" class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.2s">
+        <span id="word2"class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1.6s">微信公共平台开发</span>
+		<img src="images/skill3.png" id="s"class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="2s">
+		<span id="word3" class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="2.4s">HHTML5+CSS3应用</span>
+		<img src="images/skill4.png" id="js"class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="2.8s">
+		<span id="word4" class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="3.2s">NODE.JS</span>
+		<img src="images/skill5.png" id="A" class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="3.6s">
+		<span id="word5" class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="4s">Anjula.js</span>
+	</div>
+            <!-- 第四页 -->
+			<div class="swiper-slide">
+				<img src="images/4.jpg">                
+			<div class="ani exp experience"  swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.4s"><b>学习及工作经历</b></div>
+
+			<p class="ani company1" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.2s">2012.07-2014.4某某单位</p>
+
+			<div id="circle1" class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="0.4s"></div>
+
+			<p class="ani position1" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.6s">某某职位</p>
+	
+
+			<p class="ani company2"swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="0.8s">2014.05-2015.5某某单位</p>
+			<div id="circle2" class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1s"></div>
+			<p class="ani position2" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.2s">某某职位</p>
+
+			<p class="ani company3" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.4s">2015.07-2016.7某某单位</p>
+
+			<div id="circle3" class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1.6s"></div>
+
+			
+
+			<p class="ani position3" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1.8s">某某职位</p>
+
+			<p class="ani company4" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="2s">2016.07-2017.7某某单位</p>
+
+			<div id="circle4" class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="2.2s"></div>
+			
+			<p class="ani position4" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="2.4s">某某职位</p>
+			<div id="liner"></div>
+			</div>
+			<!-- 第五页 -->
+			<div class="swiper-slide">
+				<img src="images/5.jpg">
+                <div class="ani contact" swiper-animate-effect="bounceIn" swiper-animate-duration="2s" swiper-animate-delay="0.4s"><b>联系方式</b></div>
+				<p id="phone" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="2s" swiper-animate-delay="0.8s">Phone:15956902130</p>
+				<p id="qq" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="2s" swiper-animate-delay="1.2s">QQ:2345676897</p>
+				<p id="wechat" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="2s" swiper-animate-delay="1.6s">WeChat:2345676897</p>
+
+			</div>
+             <!-- 第六页 -->
+			<div class="swiper-slide" style='background-image: url(images/6.png)'>
+			<p id="thank" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="2s" swiper-animate-delay="0.4s">谢谢观看</p>
+	        <p id="tk" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="2s" swiper-animate-delay="0.8s">Thank    you</p>
+			</div>
+		</div>
+   </div>
+	
+    <script>   
+        /*第四页动画控制*/
+    	var mySwiper=new Swiper(".swiper-container",{
+            direction:'vertical',            
+            onInit:function(swiper){
+            	swiperAnimateCache(swiper);
+            	swiperAnimate(swiper);
+            },
+            onSlideChangeEnd:function(swiper){
+				swiperAnimate(swiper);
+				console.log(swiper.activeIndex);				
+				var line=document.getElementById("liner"); 
+				if(swiper.activeIndex==3){                
+					line.style.animation="liners 6s linear 2s both";
+				}
+				else{
+                    line.style.animation="";
+				}
+			}
+    	});
+    	/*音乐播放控制*/
+    	function onPlay(){
+        	var player=document.getElementById("player");
+        	if(player.style.animationPlayState=="running"){
+        		player.style.animationPlayState="paused";
+                $("aud").pause();
+        	}
+        	else{
+        		player.style.animationPlayState="running";
+        		$("aud").play();
+        	}
+        }
+
+     function $(id){
+     	return document.getElementById(id);
+     }
+    </script>
+	
+</body>
+</html>
